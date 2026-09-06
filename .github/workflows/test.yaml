@@ -1,10 +1,10 @@
 ---
 name: Test
-On:
+on:
   push:
     branches:
       - main
-  workflow_dispatch: null
+  workflow_dispatch: 
 jobs:
   log_massage:
     runs-on: ubuntu-lastet
