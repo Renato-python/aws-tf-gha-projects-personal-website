@@ -8,7 +8,7 @@ On:
         
 jobs:
     log_massage:
-    runs-on: ubuntu-lastet
-    steps:
-        - name: Log
-        run: echo " The Workflow is Working"            
+      runs-on: ubuntu-lastet
+      steps:
+          - name: Log
+            run: echo " The Workflow is Working"            
