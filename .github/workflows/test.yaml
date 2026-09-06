@@ -1,0 +1,14 @@
+name: Test
+
+On:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+        
+jobs:
+    log_massage:
+    runs-on: ubuntu-lastet
+    steps:
+        - name: Log
+        run: echo " The Workflow is Working"            
