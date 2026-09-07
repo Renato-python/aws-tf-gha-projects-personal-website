@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   listing_buckets:
-    runs-on: ubuntu-lastet
+    runs-on: ubuntu-latest
     steps:
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v6
